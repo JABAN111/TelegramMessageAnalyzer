@@ -30,6 +30,14 @@ git clone https://github.com/JABAN111/TelegramMessageAnalyzer.git
 go run -data="path_to_ChatExport_*" -output="where_reports_shall_spawn"
 ```
 
+## Готовые релизы
+Отдельная [релизная страница](RELEASES.md) содержит ссылки на сборки под Windows, macOS и Linux, а также команды для самостоятельной сборки.
+
+### Быстрый запуск бинарников
+- **Windows:** `TelegramMessageAnalyzer_windows_amd64.exe -data "C:\Path\To\ChatExport_*" -output "C:\Path\To\Reports"`
+- **macOS:** `./TelegramMessageAnalyzer_darwin_universal -data="/Users/you/ChatExport_*" -output="/Users/you/Reports"`
+- **Linux:** `./TelegramMessageAnalyzer_linux_amd64 -data="~/ChatExport_*" -output="~/reports"`
+
 Enjoy:D
 
 ![img_1.png](readme_files/img_1.png)
